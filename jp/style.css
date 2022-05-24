@@ -1,0 +1,97 @@
+body {
+  /* Define uma cor de fundo e fonte gerals */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+    
+  /* Alinha todos elementos ao centro */
+  text-align: center; 
+}
+
+/* Define estilos para o limite de telas com até 480px de largura */
+@media (max-width: 480px) {
+  h1{
+    /* Define o posicionamento */
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    
+    /* Define o estilo */
+    font-size: x-large;
+    background-color: #f5cb5c; 
+    box-shadow: 0 2px 5px #242423;
+    border-radius: 0 0 15px 15px;
+  }
+  main{
+    /* Define o tamanho da área de usabilidade do site */
+    width: 90%;
+
+    /* Define o posicionamento */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    /* Define estilo */
+    font-size: x-large;
+    border-bottom: solid 5px #f5cb5c;
+    
+    /* Define posicionamento */
+    margin: 25px auto 15px auto;
+  }
+  main p{
+    /* Define formatação do texto no Main */
+    margin: 5px;
+    text-align: justify;
+  }
+  iframe{
+    /* Define o tamanho da janela do video*/
+    width: 100%;
+  }
+  button{
+    /* Define o posicionamento */
+    width: 90%;
+    padding: 10px;
+    margin: 15px;
+
+    /* Define o estilo */
+    font-size: medium;
+    background-color: #f5cb5c;
+    border: 0;
+    box-shadow: 0 2px 5px #242423;
+    border-radius: 5px;
+  }
+  /* Define uma cor alternativa quando o usuário clicar no link */
+  button:hover{
+    background-color: #242423;
+    color: #f5cb5c;
+    font-weight: bold;
+  }
+  button:active{
+    background-color: #242423;
+    color: #f5cb5c;
+    font-weight: bold;
+  }
+  footer{
+    /* Define a posição */
+    position: absolute;
+    bottom: 0;
+
+    /* Define o tamanho do rodapé e cor */
+    padding-top: 10px;
+    background-color: #242423;
+    color: #f2f2f2;
+    width: 100%;
+    height: max-content;
+  }
+  /* Especificações dos itens do rodapé */
+  footer p{
+    margin: 15px;
+    font-size: small;
+  }
+  a span{
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  span{
+    margin: 15px;
+  }
+}
