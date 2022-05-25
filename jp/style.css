@@ -2,10 +2,11 @@ body {
   /* Define uma cor de fundo e fonte gerals */
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f2f2f2;
-    
-  /* Alinha todos elementos ao centro */
+
+  /*Alinha todos elementos ao centro */
   text-align: center; 
 }
+
 
 /* Define estilos para o limite de telas com até 480px de largura */
 @media (max-width: 480px) {
@@ -45,6 +46,9 @@ body {
   iframe{
     /* Define o tamanho da janela do video*/
     width: 100%;
+  }
+  a{
+    color: inherit;
   }
   button{
     /* Define o posicionamento */
