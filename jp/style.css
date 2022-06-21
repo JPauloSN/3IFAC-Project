@@ -69,11 +69,6 @@ body {
     color: #f5cb5c;
     font-weight: bold;
   }
-  button:active{
-    background-color: #242423;
-    color: #f5cb5c;
-    font-weight: bold;
-  }
   footer{
     /* Define a posição */
     position: absolute;
