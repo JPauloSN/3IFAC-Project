@@ -1,8 +1,15 @@
 function validar() {
-    console
-    if(document.getElementById('senha').value != document.getElementById('senhaConfirma').value){
-        alert("Você preencheu os campos de senhas com valores distintos!")
+    var dados = document.getElementsByClassName("required")
+    var ok = true
+    for (let i = 0; i  < dados.length; i++) {
+        if(dados[i].value == ''){
+            ok = false
+        }    
+    }
+    
+    if(!ok){
+        alert("Preencha todos os campos, por favor!")
         return false
     }
-    else return true
+
 }
